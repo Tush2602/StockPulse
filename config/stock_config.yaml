@@ -1,7 +1,12 @@
 data : 
     n_symbol : "NFLX"
-    days : 60
+    days : 16
     keep_days : 7
-    output_size: 5000
+    output_size: 3500
     interval : "1min"
+
+
+preprocessing :
+    test_size : 350
+    random_state : 1003
 
